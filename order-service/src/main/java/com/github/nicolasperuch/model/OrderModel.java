@@ -2,9 +2,19 @@ package com.github.nicolasperuch.model;
 
 public class OrderModel {
 
+    private String id;
     private String flavor;
     private String size;
     private String currentStatus;
+
+    public String getId() {
+        return id;
+    }
+
+    public OrderModel setId(String id) {
+        this.id = id;
+        return this;
+    }
 
     public String getFlavor() {
         return flavor;

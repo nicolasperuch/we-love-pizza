@@ -1,6 +1,6 @@
 package com.github.nicolasperuch.config;
 
-import com.github.nicolasperuch.service.client.EventStoreClient;
+import com.github.nicolasperuch.client.EventStoreClient;
 import feign.Feign;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

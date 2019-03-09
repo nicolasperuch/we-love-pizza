@@ -1,4 +1,4 @@
-package com.github.nicolasperuch.service.client;
+package com.github.nicolasperuch.client;
 
 import feign.Headers;
 import feign.RequestLine;
