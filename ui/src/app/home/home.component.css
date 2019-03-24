@@ -1,0 +1,52 @@
+.container {
+    display: flex; 
+    height: 100vh;
+    overflow: auto;
+  }
+
+.left-pizza {
+    height: 100vh;
+    width:50%;
+    background-image: url("/../../assets/pizza-left.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: .5s;
+    filter: sepia(0.2)
+}
+
+.left-pizza:hover,
+.track-order:hover,
+.feedback:hover {
+    filter: blur(0px)
+}
+
+.track-order {
+    width: 100vh;
+    height: 50%;
+    background-image: url("/../../assets/track-your-order.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: .5s;
+    filter: sepia(0.2)
+}
+
+.feedback {
+    width: 100vh;
+    height: 50%;
+    background-image: url("/../../assets/feedback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+
+    filter: sepia(0.2)
+}
+
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
