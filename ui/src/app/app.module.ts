@@ -7,6 +7,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { RequestOrderComponent } from './request-order/request-order.component';
 import { TrackOrderComponent } from './track-order/track-order.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { TrackOrderComponent } from './track-order/track-order.component';
     AppComponent,
     HomeComponent,
     RequestOrderComponent,
-    TrackOrderComponent
+    TrackOrderComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

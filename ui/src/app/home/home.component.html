@@ -1,13 +1,13 @@
 <div class="container">
-  <div class="left-pizza blur">
-    <label>LEFT</label>  
+  <div class="left-pizza blur"
+       (click)="requestOrder()">
   </div>
   <div>
-    <div class="track-order blur">
-      <label>RIGHT TOP</label>
+    <div class="track-order blur"
+         (click)="trackOrder()">
     </div>
-    <div class="feedback blur">
-        <label>RIFHT BOTTOM</label>
-      </div>  
+    <div class="feedback blur"
+         (click)="sendFeedback()">
+    </div>  
   </div>
 </div>
